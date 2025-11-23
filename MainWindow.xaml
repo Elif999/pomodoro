@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" ?>
+<Window
+    x:Class="BasittPomodoroProgramı.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BasittPomodoroProgramı"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Focus-To-Pomodoro">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid Background="#FEB21A">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+            <!---BAŞLIK-->
+            <TextBlock Text="Pomodoro Timer" FontSize="60" FontWeight="Black" TextAlignment="Center" Foreground="#FFDD2C00"/>
+            <!---Zaman Göstergesi-->
+            <TextBlock x:Name="timerLabel" Text="2:00" FontSize="50" FontWeight="Bold" Foreground="#FFDD2C00" TextAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="15">
+                <Button Content="Başlat" Width="130" Height="70" Click="StartButton"
+                        Background="#FFDD2C00" Foreground="White" FontWeight="Bold"/>
+                <Button Content="Durdur" Width="130" Height="70" Click="StopButton"
+                        Background="#FF333333" Foreground="White" FontWeight="Bold"/>
+
+
+            </StackPanel>
+
+        </StackPanel>
+        
+
+
+    </Grid>
+</Window>
