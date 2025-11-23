@@ -26,7 +26,7 @@ namespace BasittPomodoroProgramı
     {
 
         private DispatcherTimer timer;
-        private int remainingSeconds = 2*60; //25 dakika
+        private int remainingSeconds = 2*60; //ör/25 dakika
         int minutes;
         int seconds;
         int s5 = 1 * 60;
@@ -1086,5 +1086,6 @@ Bunu yapayım mı?
 
 
 }
+
 
 
