@@ -8,9 +8,9 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="0e10ffab-524e-429a-8517-dd37beeb6a14"
-    Publisher="CN=elifp"
-    Version="1.0.0.0" />
+    Name="******************"
+    Publisher="******"
+    Version="******" />
 
   <mp:PhoneIdentity PhoneProductId="0e10ffab-524e-429a-8517-dd37beeb6a14" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -49,3 +49,4 @@
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
 </Package>
+
